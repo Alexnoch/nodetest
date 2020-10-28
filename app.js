@@ -37,7 +37,7 @@
 const http = require('http');
 
 http.createServer((req,res)=>{
-    res.writeHead({"Access-Control-Allow-Origin":"*"});
+    res.writeHead({"Access-Control-Allow-Origin:http://alexnoch-blog.ru"});
     res.writeHead(200, {
         "Content-Type": "application/json"
     });
